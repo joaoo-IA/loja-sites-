@@ -1,0 +1,174 @@
+You are a senior UI/UX designer, conversion copywriter and web developer.
+
+Your task is to generate a high-conversion, professional one-page website for a freelance Web Developer who sells websites and online presence to businesses, professionals and entrepreneurs.
+
+The main goal of this website is to build trust, authority and convert visitors into qualified leads via WhatsApp or contact button.
+
+The website must feel strategic, premium and focused on business results, not just visual design.
+
+⸻
+
+=================================
+
+GENERAL GUIDELINES
+
+=================================
+	•	Website language: Portuguese (Brazil)
+	•	Tone: professional, clear, confident and persuasive (never aggressive)
+	•	Target audience: small businesses, professionals and entrepreneurs who want to look more credible and professional online
+	•	Focus on benefits, clarity and real results, avoiding technical jargon
+	•	Copy must be simple, direct, scannable and conversion-focused
+	•	Avoid long paragraphs
+	•	Use short sentences and bullet points whenever possible
+
+⸻
+
+=================================
+
+POSITIONING & DIFFERENTIATION
+
+=================================
+	•	Position the developer as a strategic partner, not just someone who “creates websites”
+	•	Emphasize:
+	•	Focus on credibility, conversion and online presence
+	•	Custom projects, no generic templates
+	•	Clear communication and structured process
+	•	Use soft authority (no fake testimonials or exaggerated claims)
+	•	Avoid buzzwords and empty promises
+
+⸻
+
+=================================
+
+VISUAL STYLE & DESIGN
+
+=================================
+	•	Modern, clean and premium look
+	•	Minimalist layout with strong visual hierarchy
+	•	Plenty of white space
+	•	Neutral color palette (white, dark gray and a soft accent color)
+	•	Modern sans-serif typography
+	•	Subtle animations and smooth transitions
+	•	Mobile-first design
+	•	Fully responsive (mobile, tablet and desktop)
+	•	Professional, trustworthy and timeless aesthetic
+
+⸻
+
+=================================
+
+PAGE STRUCTURE & CONTENT
+
+=================================
+
+1. HERO SECTION
+	•	Strong and clear headline about professional websites that build trust and generate clients
+	•	Short subheadline explaining the value proposition in a simple way
+	•	Two clear CTAs:
+* “Solicitar orçamento”
+* “Falar no WhatsApp”
+	•	Include subtle microcopy near CTAs to reduce friction
+(ex: “Resposta rápida”, “Sem compromisso”)
+
+⸻
+
+2. PROBLEM SECTION
+	•	Headline addressing the lack of online presence and credibility
+	•	Short explanation about how businesses lose opportunities without a professional website
+	•	Bullet points with common pains:
+* No professional online presence
+* Outdated, slow or amateur websites
+* Total dependence on Instagram or social media
+* Low trust and low conversion
+
+⸻
+
+3. SOLUTION SECTION
+	•	Headline explaining that the developer builds online presence the right way
+	•	Short paragraph reinforcing strategy, clarity and results
+	•	Feature cards:
+* Professional websites and landing pages
+* Fast performance and optimized loading
+* Responsive and mobile-first design
+* Conversion-focused structure
+* Secure and stable setup
+
+⸻
+
+4. AUTHORITY & TRUST SECTION
+
+Headline: “Por que escolher meu trabalho?”
+	•	Bullet points highlighting:
+* Focus on real business results
+* Custom projects, no ready-made templates
+* Clear process and direct communication
+* Strategic thinking beyond visual design
+
+⸻
+
+5. PROCESS SECTION
+
+Simple and visual step-by-step timeline:
+	1.	Understanding the business and goals
+	2.	Structure and design planning
+	3.	Website development
+	4.	Review and adjustments
+	5.	Final delivery with initial support
+
+⸻
+
+6. SERVICES SECTION
+
+Service cards:
+	•	Site institucional
+	•	Landing page de vendas
+	•	Página profissional
+	•	Manutenção e melhorias de site
+	•	Integrações com WhatsApp, formulários e ferramentas
+
+Keep descriptions short, benefit-oriented and easy to understand.
+
+⸻
+
+7. FINAL CALL TO ACTION
+	•	Strong, confident headline inviting action
+	•	Short supporting text reinforcing trust and clarity
+	•	Primary CTA button:
+“Falar comigo agora”
+	•	Include microcopy for reassurance
+(ex: “Atendimento direto”, “Sem obrigação”)
+
+⸻
+
+8. FOOTER
+	•	Minimal and clean footer
+	•	Developer name or brand
+	•	Role: Web Developer
+	•	Contact links (WhatsApp, email or social)
+	•	Copyright text
+
+⸻
+
+=================================
+
+TECHNICAL REQUIREMENTS
+
+=================================
+	•	Fast loading performance
+	•	SEO-friendly structure
+	•	Semantic HTML structure
+	•	Accessible design
+	•	Clear and visible CTAs throughout the page
+
+⸻
+
+=================================
+
+OUTPUT REQUIREMENTS
+
+=================================
+	•	Deliver a ready-to-use one-page website structure
+	•	All content written in Portuguese (Brazil)
+	•	Clear visual section separation
+	•	Focused on conversion, trust and authority
+	•	Content only (no CSS), structured in a way that can easily be implemented
