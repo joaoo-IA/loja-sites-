@@ -44,16 +44,18 @@ export function Problem() {
               key={index}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1 }}
+              whileHover={{ y: -5 }}
+              transition={{ duration: 0.3, delay: index * 0.1 }}
               viewport={{ once: true }}
+              className="h-full"
             >
-              <Card className="h-full border-none shadow-sm hover:shadow-md transition-shadow duration-300">
-                <CardContent className="pt-6">
-                  <div className="w-12 h-12 rounded-lg bg-red-50 flex items-center justify-center mb-4 text-red-500">
-                    <item.icon className="w-6 h-6" />
+              <Card className="group h-full border border-transparent hover:border-red-100 hover:shadow-[0_8px_30px_rgb(0,0,0,0.04)] transition-all duration-300 bg-white">
+                <CardContent className="pt-8 px-6 pb-8">
+                  <div className="w-16 h-16 rounded-2xl bg-red-50 flex items-center justify-center mb-6 text-red-500 group-hover:scale-110 transition-transform duration-300">
+                    <item.icon className="w-8 h-8" strokeWidth={2.5} />
                   </div>
-                  <h3 className="text-lg font-bold font-heading mb-2 text-gray-900">{item.title}</h3>
-                  <p className="text-sm text-gray-600 leading-relaxed">{item.description}</p>
+                  <h3 className="text-xl font-bold font-heading mb-3 text-gray-900">{item.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{item.description}</p>
                 </CardContent>
               </Card>
             </motion.div>

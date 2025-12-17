@@ -28,95 +28,106 @@
   --color-border: hsl(var(--border));
   --color-input: hsl(var(--input));
   --color-ring: hsl(var(--ring));
-  
+
   --font-sans: 'Inter', sans-serif;
   --font-heading: 'Plus Jakarta Sans', sans-serif;
-  
+
   --radius: 0.5rem;
 }
 
 :root {
-  /* Premium Minimalist Palette */
-  /* Background: White */
+  /* Premium Minimalist Palette - Refined */
+
+  /* Background: Pure White to Very Light Gray */
   --background: 0 0% 100%;
-  /* Foreground: Dark Charcoal/Black */
-  --foreground: 220 15% 10%;
-  
-  /* Card: Very subtle gray */
+  /* Foreground: High contrast Dark Slate for better readability */
+  --foreground: 222 47% 11%;
+
+  /* Card: White with subtle elevation */
   --card: 0 0% 100%;
-  --card-foreground: 220 15% 10%;
-  
+  --card-foreground: 222 47% 11%;
+
   /* Popover */
   --popover: 0 0% 100%;
-  --popover-foreground: 220 15% 10%;
-  
-  /* Primary: Deep Indigo/Navy - Trustworthy & Professional */
-  --primary: 220 60% 15%; 
-  --primary-foreground: 0 0% 100%;
-  
-  /* Secondary: Soft Gray for subtle elements */
-  --secondary: 220 14% 96%;
-  --secondary-foreground: 220 15% 10%;
-  
-  /* Muted: Text for subheaders */
-  --muted: 220 14% 96%;
-  --muted-foreground: 220 10% 45%;
-  
-  /* Accent: A vibrant Electric Blue for key highlights (not main buttons) */
-  --accent: 220 14% 96%;
-  --accent-foreground: 220 15% 10%;
-  
-  /* Destructive */
-  --destructive: 0 84% 60%;
-  --destructive-foreground: 0 0% 98%;
+  --popover-foreground: 222 47% 11%;
 
-  /* Borders & Inputs */
-  --border: 220 13% 91%;
-  --input: 220 13% 91%;
-  --ring: 220 60% 15%;
+  /* Primary: Deep Navy - Trustworthy, Corporate, Professional */
+  --primary: 222 47% 11%;
+  --primary-foreground: 210 40% 98%;
+
+  /* Secondary: Soft Gray for subtle backgrounds/elements */
+  --secondary: 210 40% 96.1%;
+  --secondary-foreground: 222 47% 11%;
+
+  /* Muted: Text for subheaders - increased contrast for accessibility */
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215 16% 47%;
+
+  /* Accent: Vibrant Indigo/Blue - The "New" Pop Color */
+  --accent: 224 76% 58%;
+  /* A lively, trusted blue */
+  --accent-foreground: 210 40% 98%;
+
+  /* Destructive */
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  /* Borders & Inputs - adjusted for subtle definition */
+  --border: 214 32% 91%;
+  --input: 214 32% 91%;
+  --ring: 224 76% 58%;
+  /* Use accent color for focus rings */
 
   --radius: 0.5rem;
 }
 
 .dark {
-  /* Dark mode palette (if needed later, sticking to light/clean for now as per brief) */
-  --background: 220 15% 10%;
-  --foreground: 0 0% 98%;
-  
-  --card: 220 15% 12%;
-  --card-foreground: 0 0% 98%;
-  
-  --popover: 220 15% 12%;
-  --popover-foreground: 0 0% 98%;
-  
-  --primary: 0 0% 98%;
-  --primary-foreground: 220 15% 10%;
-  
-  --secondary: 220 15% 16%;
-  --secondary-foreground: 0 0% 98%;
-  
-  --muted: 220 15% 16%;
-  --muted-foreground: 220 10% 65%;
-  
-  --accent: 220 15% 16%;
-  --accent-foreground: 0 0% 98%;
-  
-  --destructive: 0 62% 30%;
-  --destructive-foreground: 0 0% 98%;
-  
-  --border: 220 15% 16%;
-  --input: 220 15% 16%;
-  --ring: 220 15% 80%;
+  /* Dark mode palette - Harmonized */
+  --background: 222 47% 11%;
+  --foreground: 210 40% 98%;
+
+  --card: 222 47% 13%;
+  /* Slightly lighter than bg */
+  --card-foreground: 210 40% 98%;
+
+  --popover: 222 47% 11%;
+  --popover-foreground: 210 40% 98%;
+
+  --primary: 210 40% 98%;
+  --primary-foreground: 222 47% 11%;
+
+  --secondary: 217 32% 17%;
+  --secondary-foreground: 210 40% 98%;
+
+  --muted: 217 32% 17%;
+  --muted-foreground: 215 20% 65%;
+
+  --accent: 224 76% 58%;
+  --accent-foreground: 210 40% 98%;
+
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 217 32% 17%;
+  --input: 217 32% 17%;
+  --ring: 224 76% 58%;
 }
 
 @layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply font-sans antialiased bg-background text-foreground;
   }
-  h1, h2, h3, h4, h5, h6 {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-heading tracking-tight;
   }
 }
@@ -127,4 +138,22 @@
 
 .section-padding {
   @apply py-16 md:py-24;
+}
+
+@layer utilities {
+  .transition-all-200 {
+    @apply transition-all duration-200 ease-in-out;
+  }
+
+  .transition-all-300 {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .hover-lift {
+    @apply hover:-translate-y-1 hover:shadow-lg transition-transform duration-300 ease-out;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
 }
