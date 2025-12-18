@@ -18,7 +18,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold font-heading tracking-tight text-primary">
-              Dev<span className="text-blue-600">Pro</span>
+              Creft<span className="text-blue-600">Sites</span>
             </a>
             <p className="text-sm text-gray-500 mt-2">
               Web Designer & Developer Freelancer
