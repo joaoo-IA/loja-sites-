@@ -33,7 +33,7 @@ export function Navbar() {
     >
       <div className="container flex items-center justify-between">
         <a href="#" className="text-xl font-bold font-heading tracking-tight text-primary">
-          Dev<span className="text-blue-600">Pro</span>
+          Cref <span className="text-blue-600">Sites</span>
         </a>
 
         {/* Desktop Nav */}
@@ -81,6 +81,6 @@ export function Navbar() {
           </div>
         )}
       </div>
-    </nav>
+    </nav >
   );
 }
